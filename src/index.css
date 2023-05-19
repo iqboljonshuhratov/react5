@@ -1,0 +1,77 @@
+ul {
+  list-style: none;
+}
+ul li {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgbox {
+  width: 60%;
+}
+.imgbox img {
+  width: 100%;
+  height: 50%;
+}
+
+.inputBox {
+  width: 40%;
+}
+.inputBox .input-div {
+  height: 70px;
+  display: flex;
+}
+.inputBox .input-div div:nth-child(1) {
+  width: 90%;
+}
+.inputBox .input-div div:nth-child(1) input {
+  height: 40px;
+}
+
+.input-div2 {
+  height: 100px !important;
+}
+.input-div2 div:nth-child(1) {
+  width: 50% !important;
+}
+
+.container2 {
+  width: 54%;
+}
+.container2 img {
+  width: 100%;
+  height: 50%;
+}
+.container2 .container .row .col-6 {
+  height: 470px;
+  width: 49% !important;
+}
+
+.counter {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.counter ul li {
+  margin: 0px !important;
+  padding: 10px;
+}
+
+.futter {
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.826);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */
